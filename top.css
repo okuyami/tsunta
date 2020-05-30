@@ -6,24 +6,42 @@
   
  .heading{
   	margin-top: 200px;
-  	margin-left: 20px;
+  	margin-left: 40px;
   	background-color: #682511;
+    font-family: 'IM Fell French Canon SC', serif;
+  }
+  
+   .heading2{
+  	margin-top: 80px;
+  	margin-left: 0px;
+  	background-color: #682511;
+    font-family: 'IM Fell French Canon SC', serif;
   }
   
   
  .top-wrapper{
   background-color: #250f00;
-    flex: 1;
+  color: #fff;
+  flex: 1;
+  text-align: center;
   }
   
-  
+  i{
+  color: #fff;
+  padding: 50px;
+
+  }
   
  .bio{
    font-size: 14px;	
-   padding: 20px;
+   padding: 40px;
+   margin-bottom: 300px;
  }
  
-   
+.border{
+  border-top : solid 1px #E1B471;
+  padding-left: 10px;
+}
    
  
  
