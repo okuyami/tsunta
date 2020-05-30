@@ -1,0 +1,80 @@
+/*このCSSは共通CSSです*/
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+html{
+
+  background-color: #250f00;
+
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-color: #250f00;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  background: url("title.png") no-repeat left center;
+  background-size: contain;
+  height: 200px;
+  width: 400px;
+}
+
+a.menu{
+  cursor: pointer;
+  text-decoration: none; 
+  color: #fff;
+  transition: color 0.3s;
+  position: relative;
+  display: inline-block;
+  padding:0 20px;
+}
+
+a.menu:hover{
+  color : #ff7043;
+  text-decoration: none; 
+
+}
+
+a.menu::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #ff7043;
+  transition: .3s;
+  transform: translateX(-50%);
+}
+
+a.menu:hover::after{
+  width: 100%;
+}
+
+li{
+  text-decoration: none;
+  float: left;
+  list-style: none;
+  font-family: 'IM Fell French Canon SC', serif;
+  color: #fff;
+  font-size: 2em;
+}
+
+
+
+footer{
+  text-align: center;
+  background-color: #682511;
+  width: 100%;
+  
+}
+
+footer p{
+  padding: 5px;
+}
