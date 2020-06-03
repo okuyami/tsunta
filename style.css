@@ -18,6 +18,9 @@ body {
   min-height: 100vh;
 }
 
+.collapsing{
+  -webkit-transition: height 1.0s ease;
+}
 
 
 .navbar-brand {
