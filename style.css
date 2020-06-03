@@ -20,10 +20,11 @@ body {
 
 
 
-
 .navbar-brand {
   background: url("title.png") no-repeat left center;
-  background-size: auto;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
 }
 
 a.menu{
