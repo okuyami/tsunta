@@ -28,6 +28,7 @@ body {
   background-size: contain;
   height: 150px;
   width: 350px;
+  float: left;
 }
 
 a.menu{
