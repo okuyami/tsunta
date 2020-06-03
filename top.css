@@ -1,12 +1,12 @@
 .topimg{
-  padding-top: 200px;
+  padding-top: 210px;
   width: 100%;
   float: left;
   }
   
  .heading{
-  	margin-top: 200px;
-  	margin-left: 40px;
+  	margin-top: 220px;
+  	margin-left: 20px;
   	background-color: #682511;
     font-family: 'IM Fell French Canon SC', serif;
   }
@@ -35,12 +35,17 @@
  .bio{
    font-size: 14px;	
    padding: 40px;
-   margin-bottom: 300px;
+   margin: 30px 0;
  }
+ 
+ .bio h4{
+   font-family: 'IM Fell French Canon SC', serif;
+  }
  
 .border{
   border-top : solid 1px #E1B471;
   padding-left: 10px;
+  margin-bottom: 80px;
 }
    
  

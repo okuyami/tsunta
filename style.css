@@ -18,6 +18,9 @@ body {
   min-height: 100vh;
 }
 
+
+
+
 .navbar-brand {
   background: url("title.png") no-repeat left center;
   background-size: contain;
@@ -69,6 +72,7 @@ li{
 
 
 footer{
+  margin-top: 250px;
   text-align: center;
   background-color: #682511;
   width: 100%;

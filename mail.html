@@ -1,98 +1,51 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 <title>TSUNTA official Website</title>
-
-<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 <!--CSS-->
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="top.css">
-<link rel="stylesheet" type="text/css" href="form.css">
 <link rel="stylesheet" type="text/css" href="modal.scss">
 
 <!--Web font-->
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
  <script src="https://kit.fontawesome.com/2473e678e5.js" crossorigin="anonymous"></script>
-  
-<!--jQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
 </head>
 
 <body>
 
-<div class="nav navbar navbar-light navbar-expand-lg fixed-top">
-
+<!-- ナビゲーションバー -->    
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color:rgba(37, 15, 0, 0.8);">
 <a class="navbar-brand" href="index.html"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+<div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggle-icon"></span>
-</button>
 
-<div id="menu" class="navbar-collapse collapse justify-content-end" id="menu">
 
 <ul class="navbar-nav">
-  <li><a class="menu" href="bio.html">Biography</a></li>
-  <li><a class="menu" href="disco.html">Discography</a></li>
-  <li><a class="menu" href="#live">Live</a></li>
-  <li><a class="menu" href="mail">Mail</a></li>
-
+  <li class="nav-item"><a class="menu" href="bio.html">Biography</a></li>
+  <li class="nav-item"><a class="menu" href="disco.html">Discography</a></li>
+  <li class="nav-item"><a class="menu" href="#live">Live</a></li>
+  <li class="nav-item"><a class="menu" href="mail.html">Mail</a></li>
 </ul>
 </div>
+</nav>
+<!-- ナビゲーションバー -->   
 
-</div>
-
-<!--
-<div class="d-md-none d-sm-none  d-none d-xl-block">
-<div class="d-xl-none d-sm-none d-none d-lg-block">
-<a href="#"><button class="confetti-button col-lg-1">Bio</button></a>
-<a href="#"><button class="confetti-button col-lg-1">Disco</button></a>
-<a href="#"><button class="confetti-button col-lg-1">Live</button></a>
-<a href="#"><button class="confetti-button col-lg-1">Movie</button></a>
-<a href="#"><button class="confetti-button col-lg-1">Blog</button></a>
-<a href="#"><button class="confetti-button col-lg-1">Mail</button></a>
-</div>
-
-
-<div class="d-xl-none d-lg-none d-none d-md-block">
-<a href="#"><button class="confetti-button col-md-4">Bio</button></a>
-<a href="#"><button class="confetti-button col-md-4">Disco</button></a>
-<a href="#"><button class="confetti-button col-md-4">Live</button></a>
-<a href="#"><button class="confetti-button col-md-4">Movie</button></a>
-<a href="#"><button class="confetti-button col-md-4">Blog</button></a>
-<a href="#"><button class="confetti-button col-md-4">Mail</button></a>
-</div>
-
-
-<div class="d-xl-none d-lg-none d-md-none d-block">
-<a href="#"><button class="confetti-button col-sm-4">Bio</button></a>
-<a href="#"><button class="confetti-button col-sm-4">Disco</button></a>
-<a href="#"><button class="confetti-button col-sm-4">Live</button></a>
-<a href="#"><button class="confetti-button col-sm-4">Movie</button></a>
-<a href="#"><button class="confetti-button col-sm-4">Blog</button></a>
-<a href="#"><button class="confetti-button col-sm-4">Mail</button></a>
-</div>
-
-
--->
 <h1 class="heading">Mail</h1>
 
-
-<form id="form" class="topBefore"action="moriyami328@gmail.com" method="post">
-        
-          <input id="name" type="text" placeholder="NAME">
-          <input id="email" type="text" placeholder="E-MAIL">
-          <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-  <input id="submit" type="submit" value="送信">
-  
-  
-  
-</form>
 
 
 <footer>
@@ -102,6 +55,10 @@
 </footer>
 
 
-</body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
 
