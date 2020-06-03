@@ -23,7 +23,7 @@ body {
 
 .navbar-brand {
   background: url("title.png") no-repeat left center;
-  background-size: 80%;
+  background-size: auto;
 }
 
 a.menu{
