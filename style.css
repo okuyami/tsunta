@@ -23,11 +23,8 @@ body {
 }
 
 
-.navbar-brand {
-  background: url("title.png") no-repeat left center;
-  background-size: contain;
-  height: 150px;
-  width: 350px;
+.title {
+  width: 300px;
   float: left;
 }
 
