@@ -95,7 +95,17 @@ to {
 
 /*フェードインここまで*/
 
-
+ .sns{
+  background-color: #250f00;
+  color: #fff;
+  flex: 1;
+  text-align: center;
+  }
+  
+  .sns i{
+  color: #fff;
+  padding: 40px 20px;
+  }
 
 
 footer{
@@ -108,7 +118,7 @@ footer{
 
 footer p{
   font-size: 12px;
-  padding-top: 15px;
+  padding-top: 15px ;
 }
 
 
