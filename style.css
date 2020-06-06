@@ -24,18 +24,22 @@ body {
 
 
 .title {
-  width: 300px;
+  width: 290px;
   float: left;
 }
 
+
+/*メニューリンク*/
 a.menu{
   cursor: pointer;
   text-decoration: none; 
+  font-size: 2.5rem;
   color: #fff;
   transition: color 0.3s;
   position: relative;
   display: inline-block;
-  padding:0 20px;
+  padding:0 10px;
+  margin: 10px;
 }
 
 a.menu:hover{
@@ -68,11 +72,34 @@ li{
   color: #fff;
   font-size: 2em;
 }
+/*メニューリンク*/
+
+
+ 
+  /*フェードインここから*/
+ .fadein {
+
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+/*フェードインここまで*/
+
 
 
 
 footer{
-  margin-top: 250px;
+  margin-top: 150px;
   text-align: center;
   background-color: #682511;
   width: 100%;
@@ -80,5 +107,10 @@ footer{
 }
 
 footer p{
+  font-size: 12px;
   padding-top: 15px;
 }
+
+
+
+
