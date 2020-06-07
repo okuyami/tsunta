@@ -24,7 +24,7 @@ body {
 
 
 .title {
-  width: 290px;
+  width: 280px;
   float: left;
 }
 
@@ -35,7 +35,7 @@ a.menu{
   text-decoration: none; 
   font-size: 2.5rem;
   color: #fff;
-  transition: color 0.3s;
+  transition: color 0.5s;
   position: relative;
   display: inline-block;
   padding:0 10px;
@@ -100,6 +100,7 @@ to {
   color: #fff;
   flex: 1;
   text-align: center;
+  margin: 100px;
   }
   
   .sns i{

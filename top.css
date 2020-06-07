@@ -29,7 +29,11 @@
     text-align: center;
   } 
 
+.col{
+  margin: 30px;
+}
   
+
  .bio{
    font-size: 13px;	
    padding: 40px;
@@ -92,8 +96,8 @@ to {
   padding-top: 50%;
   overflow:auto; 
   -webkit-overflow-scrolling:touch;
-  border:2px solid #ccc; 
-  margin-bottom: 30px;
+  border:2px solid #111; 
+
 }
 .iframe-top iframe {
     position:absolute;
@@ -113,7 +117,7 @@ to {
   padding-top: 80%;
   overflow:auto; 
   -webkit-overflow-scrolling:touch;
-  border:2px solid #ccc; 
+  border:2px solid #; 
 }
 .iframe-live iframe {
     position:absolute;
