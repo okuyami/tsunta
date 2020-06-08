@@ -101,8 +101,9 @@ to {
 /*フェードインここまで*/
 
 .banner{
-  margin: 20px;
-  width: 100%;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 
