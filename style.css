@@ -72,6 +72,11 @@ li{
   color: #fff;
   font-size: 2em;
 }
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
 /*メニューリンク*/
 
 
@@ -95,12 +100,19 @@ to {
 
 /*フェードインここまで*/
 
+.banner{
+  margin: 20px;
+  width: 100%;
+}
+
+
+
  .sns{
   background-color: #250f00;
   color: #fff;
   flex: 1;
   text-align: center;
-  margin: 100px 0;
+  margin: 180px 0;
   }
   
   .sns i{
