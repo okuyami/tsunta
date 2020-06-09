@@ -59,8 +59,12 @@
   border-top : solid 1px #E1B471;
   padding-left: 20px;
   margin-bottom: 80px;
-  margin-left: 10px;
-  margin-right: 10px;
+}
+   
+.mailborder{
+  border : solid 1px #E1B471;
+  padding-left: 20px;
+  margin: 80px 20px;
 }
    
   .cdtext {
