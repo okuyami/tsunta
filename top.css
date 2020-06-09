@@ -11,6 +11,7 @@
  .heading{
   	margin-top: 220px;
   	margin-left: 20px;
+  	margin-right: 20px;
   	background-color: #682511;
     font-family: 'IM Fell French Canon SC', serif;
   }
@@ -28,6 +29,8 @@
     font-family: 'IM Fell French Canon SC', serif;
     text-align: center;
   } 
+
+
 
 .col{
   margin: 30px;
