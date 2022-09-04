@@ -7,31 +7,56 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script type="text/javascript">
+$(function(){
+$(".overlay").show();
+$.cookie('btnFlg') == 'on'?$(".overlay").hide():$(".overlay").show();
+$(".btn_area button").click(function(){
+$(".overlay").fadeOut();
+$.cookie('btnFlg', 'on', { expires: 30,path: '/' }); //cookieの保存
+});
+});
+</script>
+    
+    <jQuery>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    
 
 <title>TSUNTA official Website</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169356881-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169356881-1');
+</script>
 
 <!--CSS-->
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="top.css">
-
+<link rel="stylesheet" type="text/css" href="modal.css">
 
 <!--Web font-->
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
  <script src="https://kit.fontawesome.com/2473e678e5.js" crossorigin="anonymous"></script>
 
         <!-- ファビコン -->
-        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="favicon.ico">
          
         <!-- スマホ用アイコン -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
          
         <!-- Windows用アイコン -->
-        <meta name="application-name" content="{TSUNTA Official Website}"/>
-        <meta name="msapplication-square70x70logo" content="small.png"/>
-        <meta name="msapplication-square150x150logo" content="medium.png"/>
-        <meta name="msapplication-wide310x150logo" content="wide.png"/>
-        <meta name="msapplication-square310x310logo" content="large.png"/>
-        <meta name="msapplication-TileColor" content="#FAA500"/>
+        <meta name="application-name" content="TSUNTA Official Website">
+        <meta name="msapplication-square70x70logo" content="small.png">
+        <meta name="msapplication-square150x150logo" content="medium.png">
+        <meta name="msapplication-wide310x150logo" content="wide.png">
+        <meta name="msapplication-square310x310logo" content="large.png">
+        <meta name="msapplication-TileColor" content="#FAA500">
 
 
 </head>
@@ -67,28 +92,88 @@
          <i class="fab fa-facebook fa-fw"></i></a>
       <a class="menu" href="https://instagram.com/tsuntaharegalas?igshid=15pwknru23pnx">
           <i class="fab fa-instagram fa-fw" target="_blank"></i></a>
-          
-            <li class="nav-item"><a class="menu" href="https://haregalas.wixsite.com/haregalas"  target="_blank"><img src="haregalas.png" width="200px" height="50px"></a></li>
-    </li>
 </ul>
 </div>
 </nav>
 <!-- ナビゲーションバー -->   
 
 
-
-
     
 <img class="topimg fadein" src="top.jpg">
 
+
+
+
+
+
+
+<!-- 切り替えボタンの設定 -->
+<button type="button" class="button btn btn-warning offset-3 col-6 " data-toggle="modal" data-target="#Modal">
+  <img src="cd/cd17.jpg" width="100%">
+</button>
+
+<!-- モーダルの設定 -->
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+  <!--以下modal-dialogのCSSの部分で modal-lgやmodal-smを追加するとモーダルのサイズを変更することができる-->
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title modal-font" id="Modal"> 
+        <font color="#000000">New release !</font></h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <font color="#000000">
+      <center>
+        <img src="cd/cd17.jpg" width="300px" ><br>
+        <Br>
+        アルバム 『アカルイミライ』<br>
+        <br>
+        11月1日 リリース！<br>
+        <Br>
+        <a href="https://www.amazon.co.jp/dp/B08J37DXKD/ref=cm_sw_r_tw_awdo_btf_c_x_XG.JFbTY1Y4CY" class="button btn btn-warning">ご購入はこちらから！</a>
+        <br>
+        </center>
+        </font>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+
+
 <div class="container">
 <div class="row">
+  
+      <div class="col-lg-6 banner fadein">
+       <a href="mail.html#voice">
+         <img src="banner02.jpg"></a>
+    </div>
 
+  
+    <div class="col-lg-6 banner fadein">
+       <a href="https://haregalas.wixsite.com/haregalas"  target="_blank">
+         <img src="haregalas.jpg"></a>
+    </div>
+ 
+ 
+    
     <div class="col-lg-6">
-    <h1 class="heading3">NEWS</h1>
+    <h1 class="heading3">LIVE</h1>
     <!--インラインフレーム-->
     <div class="iframe-top ">
-　   <iframe src="topics.html" frameboader="0"></iframe>
+　   <iframe src="https://tsuntahome.blogspot.com" frameboader="0"></iframe>
     </div>
     <!--インラインフレーム-->
     </div>
@@ -96,13 +181,30 @@
     <div class="col-lg-6">
     <h1 class="heading3">Twitter</h1>
       <div class="text-center">
-      <a class="twitter-timeline" data-lang="ja" data-width="500" data-height="350" data-theme="dark" href="https://twitter.com/TSUNTAharegalas?ref_src=twsrc%5Etfw">Tweets by TSUNTAharegalas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="twitter-timeline" data-lang="ja" data-width="500" data-height="500" data-theme="dark" href="https://twitter.com/TSUNTAharegalas?ref_src=twsrc%5Etfw">Tweets by TSUNTAharegalas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
      </div>
     </div>
 
 </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+
+<div class="overlay">
+<div class="btn_area">
+<p class="ttl">重要なお知らせ</p>
+<p>ポップアップが出るのは初回のみです。</p>
+<button>閉じる</button>
+</div>
+</div>
 
 
 

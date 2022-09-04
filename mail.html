@@ -22,10 +22,10 @@
 
         <!-- ファビコン -->
         <link rel="icon" href="/favicon.ico">
-         
+
         <!-- スマホ用アイコン -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-         
+
         <!-- Windows用アイコン -->
         <meta name="application-name" content="{TSUNTA Official Website}"/>
         <meta name="msapplication-square70x70logo" content="small.png"/>
@@ -38,15 +38,15 @@
 
 <body>
 
-<!-- ナビゲーションバー -->    
+<!-- ナビゲーションバー -->
 <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color:rgba(37, 15, 0, 0.6);">
 <a class="navbar-brand d-inline-black align-top float-left" href="index.html">
 <img class="title" src="title.png"></a>
-<button class="navbar-toggler" type="button" 
-    data-toggle="collapse" 
-    data-target="#navbarSupportedContent" 
-    aria-controls="navbarSupportedContent" 
-    aria-expanded="false" 
+<button class="navbar-toggler" type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
     aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -58,7 +58,7 @@
   <li class="nav-item nav-link"><a class="menu" href="live.html">Live</a></li>
   <li class="nav-item nav-link"><a class="menu" href="mail.html">Mail</a></li>
 
- <li class="nav-item sns">
+     <li class="nav-item sns">
      <a class="menu" href="https://twitter.com/TSUNTAharegalas?ref_src=twsrc^google|twcamp^serp|twgr^author" target="_blank">
             <i class="fab fa-twitter fa-fw"></i></a>
      <a class="menu" href="https://www.youtube.com/channel/UCCr8e8Zh6ybmyQCzZM62RPA">
@@ -67,25 +67,62 @@
          <i class="fab fa-facebook fa-fw"></i></a>
       <a class="menu" href="https://instagram.com/tsuntaharegalas?igshid=15pwknru23pnx">
           <i class="fab fa-instagram fa-fw" target="_blank"></i></a>
-          
-            <li class="nav-item"><a class="menu" href="https://haregalas.wixsite.com/haregalas"  target="_blank"><img src="haregalas.png" width="200px" height="50px"></a></li>
-    </li>
+
 </ul>
 </div>
 </nav>
-<!-- ナビゲーションバー -->  
+<!-- ナビゲーションバー -->
+
+
+
 <h1 class="heading">Mail</h1>
-<div class="text-left text-lg-center disco mailborder cdtext">
-ライブチケットを購入して頂く際は、お名前、公演日、チケット枚数をご記入の上送信をお願い致します。<br>
-ライブ当日に受付にて、「TSUNTAで予約している〇〇(名前)です」とお名前を言って頂ければ、前売り料金でご入場頂けます。<br>
+<div class="text-left text-lg-center mail mailborder">
+<br>
+<h5><b>ライブチケット購入の際</b></h5>
+--------------------<br>
+<Br>
+<B><u>【お名前】【公演日】【チケット枚数】</u></b><br>
+<Br>
+をご記入の上メッセージ送信をお願い致します。<br>
+<br>
+ライブ当日に受付にて<Br>
+<p id="voice"></p>
+<b><u>「TSUNTAで予約している〇〇(名前)です」</u></b><Br>
+<br>
+とお名前を言って頂ければ、前売り料金でご入場頂けます。<br>
+<br>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWyWjz8XVEfzehh02eJfAGQZW-PvrBsWk2wCBr4S8z7pkm5w/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 </div>
+<div class="text-left text-lg-center mail mailborder">
+<br>
+<h5><b>ボイストレーニングを受けたい方</b></h5>
+--------------------<br>
+<br>
+20年近く、3000人以上のボイストーニングをしてきました<br>
+<Br>
+ボイストレーナーとして、実績、定評があります。<Br>
+<br>
+プロ･アマ･趣味を問わずレッスン生を募集しています。<Br>
+<Br>
+レッスン時間、料金等の質問がある方は<Br>
+<Br>
+ご連絡をお待ちしております。<br>
+<br>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScR6VhC38QuICrN06B6gwDEtVX7AMWOSr9SvxzqornqiwvUTg/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+<Br>
+<br>
+</div>
+<br>
+<br>
+<!--
 <div class="container">
   <div class="row">
     <div class="col-md-12">
  <!-- Make sure you don't change the form action-->
+  <!--
     <form action="https://api.staticforms.xyz/submit" method="post">
-        <!-- Replace with accesKey sent to your email -->
-        <input type="hidden" name="accessKey" value="603c67a3-a3a5-4508-bdad-24adfb79322d"> 
+        <!-- Replace with accesKey sent to your email -->  <!--
+        <input type="hidden" name="accessKey" value="603c67a3-a3a5-4508-bdad-24adfb79322d">
         <input type="hidden" name="subject" value="件名">
         <div class="form-group row">
           <label for="inputName" class="col-sm-4 col-form-label">お名前</label>
@@ -99,18 +136,25 @@
             <input type="text" name="email" class="form-control" id="inputEmail">
           </div>
         </div>
+         <div class="form-group row">
+          <label for="inputEmail" class="col-sm-4 col-form-label">公演日</label>
+          <div class="col-sm-8">
+            <input type="text" name="email" class="form-control" id="inputText">
+          </div>
+        </div>
         <div class="form-group row">
           <label for="inputTextarea" class="col-sm-4 col-form-label">メッセージ</label>
           <div class="col-sm-8">
             <textarea name="message" rows="3" class="form-control" id="inputTextarea"></textarea>
           </div>
         </div>
-<div class="text-center">
-         <input type="hidden" name="redirectTo" value="https://okuyami.github.io/tsunta/thanks.html">  
-　　　<a href="mailto:tsuntahome@gmail.com"><button type="submit" class="btn btn-secondary">送信</button></a>
+
+         <input type="hidden" name="redirectTo" value="https://okuyami.github.io/tsunta/thanks.html">
+           <div class="button">
+　　　<a href="mailto:tsuntahome@gmail.com"><button type="submit" class="btn btn-secondary">　送信　</button></a>
 </div>
     </form>
-        
+-->
 </div>
 </div>
 </div>
@@ -130,4 +174,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
-
